@@ -1,0 +1,82 @@
+#main{
+    /* width: 400px; */
+    height: 630px;
+    background-image: url(./shara\ desert.jpg);
+    border-radius: 10px;
+    /* background-position: center; */
+}
+.chit{
+    margin: 20px;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding: 30px;
+    margin-top: -70px;
+}
+.chit2{
+    margin-top: -50px;
+    margin-right: 50px;
+}
+.chit1{
+    z-index: 1;
+    display: flex;
+    justify-content:flex-end ;
+
+}
+#r1{
+    margin-left: 900px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.chit3,.chit4,.chit5,.chit6{
+    height: 200px;
+    width: 170px;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 15px;
+    background-image: url(./pic-1.png);
+    position: relative;
+    transition: ease;
+    transition-duration: 1s;
+    color: white;
+
+}
+.chit3:hover{
+    margin-top: 7px;
+}
+.chit4{
+   background-image: url(./pic-2.png); 
+}
+.chit4:hover{
+    margin-top: 7px;
+}
+.chit5{
+    background-image: url(./pic-3.png);
+}
+.chit5:hover{
+    margin-top: 7px;
+}
+
+.chit6{
+  background-image: url(./pic-4.png); 
+}
+.chit6:hover{
+    margin-top: 7px;
+}
+#r2{
+
+    margin-top: -400px;
+    font-size:100px ;
+    font-weight: bold;
+    color: white;
+}
+#r3{
+    margin-top: -70px;
+    font-size: small;
+    color: white;
+}
+.chit7{
+    margin-left: 50px;
+}
